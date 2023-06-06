@@ -1,0 +1,211 @@
+.checkbtn {
+    color: #443f3f;
+    margin-right: 20px;
+    padding: 8px  10px 5px;
+    border: 2px solid #0c0c0c;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+@media (min-width:320px) and (max-width:575px){
+    body{
+        overflow-x: hidden;
+    }
+    .navcontainer{
+        background-image: url(images/header-bg1.png);
+    }
+    .navlinks{
+        position: absolute;
+        top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height:220px;
+        width: 100%;
+        display: none;
+
+    }
+    .navlinks li{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;   
+    }
+    .navlinks li a {
+        color: white;
+        font-weight: 500;
+    }
+    .navlinks li:hover a{
+        color:black;
+    }
+    h3 {
+        display: none;
+    }
+    .checkbtn {
+        display: block;
+    }
+    #check:checked~.navlinks {
+         display: flex; 
+    }
+    .home{
+        background-image: url(images/header-bg1.png);
+        height: 720px;
+    }
+    .home .banner {
+        position: absolute;
+        top: 60%;
+        right:10%;
+        
+    }
+    .home .words{
+        position: absolute;
+        right: 10%;
+    }
+    
+    .coffee_section{
+        position: relative;
+        padding-top: 35%;
+        
+    }
+    .coffee_section_2 .row{
+        display: inline-block;
+    }
+    .coffee_section_2 .row .coffee_img img{
+        width: 430px;
+    }
+    .read_bt a:hover {
+        color: #3b3b3b;
+        border: 1px solid #3b3b3b;
+    }
+    .about_section{
+        position: relative;
+        padding-top: 40px;
+       
+    }
+    .about_section .content{
+        position: relative ;
+        display: block;
+        top:1250px;
+        left: 2%;
+    }
+    .about_section_2{
+        position:relative;
+    } 
+    .coffee_section_2 .types_text{
+        display: block;
+    }
+    .about_section_2 .image_iman{
+        position:relative;
+        padding-top: 295%;
+        right:60%  
+    }
+    .about_section_2 .image_iman .about_img{
+        position: relative;
+        height:280px;
+        width:430px;
+        
+    }
+    .about_taital_box{
+        position: relative;
+        width:430px;
+        /*(left: 2px;*/
+        top:40%;
+    }
+    .client_section {
+        background: rgb(208, 125, 107, 0.6);
+        background-size: cover;
+    }
+    .client_section .content1{
+       font-size: 16px;
+       padding-top: 15px;
+    }
+    .client_left {
+        position: relative;
+        right:120px;
+        width: 100%;
+        padding-left: 0px;
+    }
+    .client_right {
+        position: relative;
+        right:180px;
+        width: 130%;
+        padding-top: 20px;
+    }
+    .client_right h3{
+        display: block;
+
+    }
+    .client_taital_main {
+        display: block;
+    }
+    .client_text {
+        width: 100%;
+        
+        padding-top: 10px;
+        
+    }
+    
+    .client_img {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .blog_section{
+        position: relative;
+        top: 20px;
+    }
+    .blog_1{
+        position: relative;
+        padding-bottom: 50px;
+        width: 350px;
+        left: -60px;
+    }
+    .blog_1 .blog_box{
+        width:450px;
+    }
+    .blog_1 .read_bt{
+        position: relative;
+        left: 30px;
+    }
+    .blog_2{
+        position: relative;
+        top:560px;
+        left:-410px;
+        
+    }
+    .blog_2 .blog_box_1{
+        width:450px ;
+    }
+    .blog_2 .read_bt{
+        position: relative;
+        left: -10px;
+    } 
+    .blog_img img{
+        width:450px ;
+    }
+    .contact {
+        position: relative;
+        padding-bottom: 70px;
+        top: 520px;
+    }
+    .footer{
+        position: relative;
+        top:450px;
+    }
+    .footer .container{
+        position: relative;
+        bottom: 20px;
+    }
+    .copyright{
+        position: relative;
+        top:425px;
+    }
+    .copyright_text{
+        display: block;
+        padding-left: 40px;
+    }
+
+}
